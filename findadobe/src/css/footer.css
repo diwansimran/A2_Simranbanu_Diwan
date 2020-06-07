@@ -1,0 +1,136 @@
+.dfooter{
+	background-color: #292c2f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px;
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+ 
+.dfooter .lfooter,
+.dfooter .cfooter,
+.dfooter .rfooter{
+	display: inline-block;
+	vertical-align: middle;
+}
+ 
+.dfooter .lfooter{
+	width: 40%;
+}
+ 
+.dfooter h3{
+	color:  #ffffff;
+	font: normal 36px;
+	margin: 0;
+}
+ 
+.dfooter .copyright{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.dfooter .cfooter{
+	width: 35%;
+}
+ 
+.dfooter .cfooter i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.dfooter .cfooter i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.dfooter .cfooter p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.dfooter .cfooter p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.dfooter .cfooter p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+ 
+.dfooter .rfooter{
+	width: 20%;
+}
+ 
+.dfooter .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.dfooter .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.dfooter .footer-icons{
+	margin-top: 25px;
+}
+ 
+.dfooter .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+@media (max-width: 880px) {
+ 
+	.dfooter{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.dfooter .lfooter,
+	.dfooter .cfooter,
+	.dfooter .rfooter{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+        text-align: center;
+	}
+ 
+	.dfooter .cfooter i{
+		margin-left: 0;
+	}
+}

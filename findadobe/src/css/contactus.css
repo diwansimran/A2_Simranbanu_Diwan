@@ -1,0 +1,38 @@
+.about-section {
+	padding: 50px;
+	text-align: center;
+  }
+
+.outerform{
+max-width:65%;
+margin: auto;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 8px;
+  }
+
+.bottom{
+	text-align: center;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+  }
+
+.row{
+	padding-top: 20px;
+ } 
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.errorMessage{
+	color:red;
+	font-size: 0.75em;
+	display: relative;
+  }

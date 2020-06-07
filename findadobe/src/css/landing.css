@@ -1,0 +1,24 @@
+.landingimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 10px;
+    position: relative;
+}
+
+.coverwhite{
+    padding:20px
+}
+
+.textcover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coverimg{
+    width: 100%;
+    background-size: 100% 100%;
+    padding-bottom: 10px;
+}
