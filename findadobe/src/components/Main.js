@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Route, BrowserRouter as Router} from "react-router-dom";
+import {Route, Link, BrowserRouter as Router} from "react-router-dom";
 import Home from './landing/Home';
 import Loginsignup from './loginsignup/Loginsignup';
 import Profile from './profile/Profile';
@@ -7,7 +7,6 @@ import Contactus from "./contactusaboutus/Contactus";
 import Logo from "../images/logo_own.jpg"
 import Blogs from "./blogs/Blogs";
 import Footer from "./footer/Footer"
-//import Footer from "./pages/landing/Footer";
  
 class Main extends Component {
   
@@ -23,16 +22,16 @@ class Main extends Component {
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="/Loginsignup">Login/Signup <span class="sr-only">(current)</span></a>
+                    <Link class="nav-link" to={"/Loginsignup"}>Login/Signup <span class="sr-only">(current)</span></Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Profile">Profile</a>
+                    <Link class="nav-link" to={"/Profile"}>Profile</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Contactus">Contactus</a>
+                    <Link class="nav-link" to={"/Contactus"}>Contactus</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Blogs">Blogs</a>
+                    <Link class="nav-link" to={"/Blogs"}>Blogs</Link>
                 </li>
                 </ul>
             </div>
