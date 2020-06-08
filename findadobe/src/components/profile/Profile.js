@@ -3,6 +3,16 @@ import profileimg from '../../images/profileimage.png';
 import css from '../../css/profile.css'
 
 class Profile extends Component {
+
+  constructor(){
+    super();
+    this.handleSubmit=this.handleSubmit.bind(this);
+}
+  handleSubmit(e){
+    e.preventDefault();
+    alert('It will be redirected to edit page.');
+  }
+
   render() {
     return (
       <div class="outerprofile">
@@ -18,7 +28,7 @@ class Profile extends Component {
             </div>
           </div>
           <div class="col-md" >
-          <form class="border p-4 border-dark m-2 rounded">
+          <form class="border p-4 border-dark m-2 rounded" onSubmit={this.handleSubmit}>
             <div class="form-group">
               <label for="fname">First Name</label>
               <input type="text" class="form-control" id="firstname" placeholder="John" readonly="true"/>
@@ -37,7 +47,7 @@ class Profile extends Component {
             </div>
             <div class="text-center">
             <button type="submit" class="buttonform" class="btn btn-primary mr-5">Edit</button>
-            <button type="submit" class="buttonform" class="btn btn-dark mr-5">Update</button>
+            <button class="buttonform" class="btn btn-dark mr-5 disable">Update</button>
             </div>
           </form>
           </div>

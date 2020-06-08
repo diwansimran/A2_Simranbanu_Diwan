@@ -25,7 +25,7 @@ class Home extends Component {
           <Card.Text>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id nulla vel leo venenatis bibendum et eget metus. Suspendisse quis viverra tortor. In eget nisl arcu. Nunc ac cursus purus, eget molestie mi. Pellentesque vel porttitor ligula, in lacinia lacus. Sed tincidunt, ex at facilisis fringilla, erat leo efficitur tortor, eu iaculis enim diam eu orci. Suspendisse quis est erat. Nullam tempor felis magna, et pharetra libero hendrerit ut. Proin vehicula sit amet sem non cursus. Integer cursus, odio venenatis condimentum hendrerit, felis est efficitur tortor, a varius tellus eros at odio. Fusce ornare interdum lacus id scelerisque.
          </Card.Text>
-           <Button variant="primary">View More</Button>
+           <Button variant="primary" onClick={() => alert('It will be redirected to detailed section')}>View More</Button>
           </Card.Body>
           </Card>
         </Col>
@@ -45,7 +45,7 @@ class Home extends Component {
           <Card.Text>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id nulla vel leo venenatis bibendum et eget metus. Suspendisse quis viverra tortor. In eget nisl arcu. Nunc ac cursus purus, eget molestie mi. Pellentesque vel porttitor ligula, in lacinia lacus. Sed tincidunt, ex at facilisis fringilla, erat leo efficitur tortor, eu iaculis enim diam eu orci. Suspendisse quis est erat. Nullam tempor felis magna, et pharetra libero hendrerit ut. Proin vehicula sit amet sem non cursus. Integer cursus, odio venenatis condimentum hendrerit, felis est efficitur tortor, a varius tellus eros at odio. Fusce ornare interdum lacus id scelerisque.
          </Card.Text>
-           <Button variant="primary">View More</Button>
+           <Button variant="primary" onClick={() => alert('It will be redirected to detailed section')}>View More</Button>
           </Card.Body>
           </Card>
         </Col>

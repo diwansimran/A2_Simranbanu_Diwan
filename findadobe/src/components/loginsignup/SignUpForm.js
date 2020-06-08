@@ -97,8 +97,22 @@ class SignUpForm extends Component{
         if(formValid(this.state)){
             console.log("The form was submitted with the following data:");
             console.log(this.state);
+            this.setState({
+            email:'',
+            password:'',
+            firstname:'',
+            lastname:'',
+            formErrors:{
+                email:'',
+                password:'',
+                firstname:'',
+                lastname:''
+            }              
+            })
+            alert('You have successfully registered.');
         }else{
             console.error("FORM INVALID - DISPLAY ERROR MESSAGE");
+            alert('Sorry! Could not register.');
         }
     }
 

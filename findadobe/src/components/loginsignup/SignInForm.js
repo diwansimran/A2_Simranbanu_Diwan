@@ -2,6 +2,10 @@ import React,{Component, useState, Fragment} from 'react';
 import {Link} from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
+const emailRegex = RegExp(
+  /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+);
+
 
 class SignInForm extends Component{
 
@@ -15,6 +19,20 @@ class SignInForm extends Component{
         this.handleSubmit=this.handleSubmit.bind(this);
     }
 
+    validatePassword(password){
+      if (password.length < 8)
+          return false;
+      let hasUpperCase = /[A-Z]/.test(password);
+      let hasLowerCase = /[a-z]/.test(password);
+      let hasNumbers = /\d/.test(password);
+      let hasNonalphas = /\W/.test(password);
+      if (hasUpperCase + hasLowerCase + hasNumbers + hasNonalphas < 3)
+          return false;
+      else {
+          return true;
+      }
+    }
+
     handleChange(e){
         let target = e.target;
         let value = target.type === 'checkbox' ? target.checked : target.value;
@@ -26,9 +44,21 @@ class SignInForm extends Component{
     }
 
     handleSubmit(e){
-        e.preventDefault();
+      e.preventDefault();
+      if(emailRegex.test(this.state.email) && this.validatePassword(this.state.password)){
+        
         console.log("The form was submitted with the following data:");
         console.log(this.state);
+        this.setState({
+          email:'',
+          password:''
+        })
+        alert('You have successfully logged in.');
+      }else{
+        console.error("FORM INVALID - DISPLAY ERROR MESSAGE");
+        alert('Wrong email id or password.');
+      }
+        
     }
     render(){
     const { email, password } = this.state;
