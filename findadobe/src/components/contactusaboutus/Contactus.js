@@ -4,7 +4,7 @@ import css from '../../css/contactus.css'
 
 
 const emailRegex = RegExp(
-  /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+  /^[a-zA-Z0-9.!#$%&â€™*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 );
 
 //const passwordRegex = RegExp(/^(?:(?=.*[a-z])(?:(?=.*[A-Z])(?=.*[\d\W])|(?=.*\W)(?=.*\d))|(?=.*\W)(?=.*[A-Z])(?=.*\d)).{8,}$/);
@@ -157,45 +157,29 @@ class Contactus extends Component {
             </div>
           </form>
           </div>
-          <div className="bottom">
-          <div className="row">
-          <div className="column">
-            <div className="card">
-              <div className="container">
-                <div>
-                    <p><i className="fa fa-map-marker"></i><span>  1333, South Park,
-                      </span>
-                      Street, Halifax, NS</p>
+          <br />
+          <div className="container">
+            <div className="row">
+                <div className="contact-card col-sm-4">
+                <i className="fa fa-map-marker"></i>
+                1333 South Park Street,
+                 Halifax, NS
+                </div>
+                <div className="contact-card col-sm-4">
+                <i className="fa fa-phone"></i>
+                <a href="tel:+19998888881">+1 999 8888881</a>
+                </div>
+                <div className="contact-card col-sm-4">
+                  <i className="fa fa-envelope"></i>
+                  <a href="mailto:contact@findadobe.com">contact@findadobe.com</a>
+                </div>
               </div>
-              </div>
-            </div>
           </div>
-
-          <div className="column">
-            <div className="card">
-              <div className="container">
-                <div>
-                  <p><i className="fa fa-phone"></i> +1 999 8888881</p>
-              </div>
-              </div>
-            </div>
           </div>
-
-          <div className="column">
-            <div className="card">
-              <div className="container">
-                <div></div>      
-                  <p><i className="fa fa-envelope"></i>    <a href="mailto:contact@findadobe.com">contact@findadobe.com</a></p>
-              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
 
 
     )
   }
 }
- 
+
 export default Contactus;

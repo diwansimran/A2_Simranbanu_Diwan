@@ -1,34 +1,23 @@
+
 .about-section {
 	padding: 50px;
 	text-align: center;
-  }
+}
 
 .outerform{
 max-width:65%;
 margin: auto;
 }
 
-.card {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	margin: 8px;
+@media only screen and (max-width: 600px) {
+	.outerform{
+		max-width: 100%;
+	}
   }
 
-.bottom{
-	text-align: center;
-}
-
-.column {
-	float: left;
-	width: 33.33%;
-  }
-
-.row{
-	padding-top: 20px;
- } 
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
+.contact-card {
+	border: 1px solid black;
+	padding: 5px;
 }
 
 .errorMessage{
