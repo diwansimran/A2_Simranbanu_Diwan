@@ -13,6 +13,7 @@ Our project "FindAbode" is a apartment rental web application that will allow us
 *  *Last Modification Date*: 14 JUN 2020
 
 Github repository: [https://github.com/diwansimran/assignemnt2-web](https://github.com/diwansimran/assignemnt2-web)
+
 Heroku deployment link: [https://assignment2-findabode.herokuapp.com/](https://assignment2-findabode.herokuapp.com/)  
 
 ## Authors  
@@ -56,6 +57,7 @@ After cloning the project, run npm install -> It will install the required depen
   
 
 I have deployed this assignemnt on heroku.
+
 Please check out the live project on the following link:
 [https://assignment2-findabode.herokuapp.com/](https://assignment2-findabode.herokuapp.com/)
 
@@ -69,9 +71,13 @@ Please check out the live project on the following link:
 
 ## Links of built pages
 *Landing page: [https://assignment2-findabode.herokuapp.com/](https://assignment2-findabode.herokuapp.com/)
+
 *Register and Log in: [https://assignment2-findabode.herokuapp.com/Loginsignup](https://assignment2-findabode.herokuapp.com/Loginsignup)
+
 *View profile: [https://assignment2-findabode.herokuapp.com/Profile](https://assignment2-findabode.herokuapp.com/Profile)
+
 *About us/Contact us: [https://assignment2-findabode.herokuapp.com/Contactus](https://assignment2-findabode.herokuapp.com/Contactus)
+
 *Blogs: [https://assignment2-findabode.herokuapp.com/Blogs](https://assignment2-findabode.herokuapp.com/Blogs)
 
 ## Justification of design choices
