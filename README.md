@@ -36,20 +36,17 @@ npm
 
 ```
 
-See the following section for detailed step-by-step instructions on how to install this software / libraries / plug-ins
-
   
 
 ### Installing
 
-  
-
-A step by step series of examples that tell you how to get a development env running
 
 
 ```
 
 After cloning the project, run npm install -> It will install the required dependencies
+
+run npm start -> It will start the application at localhost:3000
 
 ```
 ## Deployment
@@ -82,12 +79,16 @@ Please check out the live project on the following link:
 
 ## Justification of design choices
 * Navigation bar and footer color: Dark grey 
+
 Reason: As the main background color of web pages is white, the dark choice of color for header and footer makes website attractive using contrast.
 * Main background color of pages: White
+
 Reason: White color improves clarity, readibilit and makes it suitable for older generation too.
 * Type of fonts: Sans Serif
+
 Reason: Snas serif fonts for headings improves readibility regardless of distance as they stand-out better.
 * Framework: I have used react framework for developing front-end. 
+
 Reasons: It is simple, fast and highly scalable. It allows to develop and re-use individual components. It provides virtual DOM which provides high quality user experience and high performance.
 
 
@@ -313,8 +314,7 @@ The code above was created by adapting the code in [https://www.youtube.com/watc
 
 ### footer.css
 
-
-*117- 136*
+*Lines 117- 136*
 
 
 ```
