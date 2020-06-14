@@ -28,7 +28,7 @@ class Main extends Component {
                     <Link class="nav-link" to={"/Profile"}>Profile</Link>
                 </li>
                 <li class="nav-item">
-                    <Link class="nav-link" to={"/Contactus"}>Contactus</Link>
+                    <Link class="nav-link" to={"/Contactus"}>About us/Contact us</Link>
                 </li>
                 <li class="nav-item">
                     <Link class="nav-link" to={"/Blogs"}>Blogs</Link>
