@@ -202,8 +202,6 @@ The code above was created by adapting the code in ([https://www.youtube.com/wat
 
 -  [https://www.youtube.com/watch?v=56E8b9prPTs](https://www.youtube.com/watch?v=56E8b9prPTs) Code was highly modified according to required fields. I also added front end validations and changed styling in terms of color, look and feel, responsiveness, etc. 
 
-*Repeat as needed*
-
   
 
 ### loginsignup.css
