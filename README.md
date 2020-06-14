@@ -96,14 +96,21 @@ Reasons: It is simple, fast and highly scalable. It allows to develop and re-use
 
 ### Image references
 Used in Home.js
-https://www.ownalandmark.com/our-homes/photo-galleries/gallery-bedrooms/
-https://www.residencestyle.com/21-beautiful-wooden-bed-interior-design-ideas/
+Can be found at: findabode/src/images/landing.jpg
+Source: https://www.ownalandmark.com/our-homes/photo-galleries/gallery-bedrooms/
+
+Can be found at: findabode/src/images/landingpage_sub.jpg
+Source: https://www.residencestyle.com/21-beautiful-wooden-bed-interior-design-ideas/
+
 
 Used in Contactus.js
-http://www.msa-scotland.net/?p=55
+Can be found at: findabode/src/images/aboutus.jpg
+Source: http://www.msa-scotland.net/?p=55
 
 Used as profile image in Profile.js
-https://www.kindpng.com/imgv/iwoJww_female-user-avatar-woman-profile-member-user-profile/
+Can be found at: findabode/src/images/profileimage.png
+Source: https://www.kindpng.com/imgv/iwoJww_female-user-avatar-woman-profile-member-user-profile/
+
 
 ### Logo design tool
 Designed logo using an online tool: freelogodesign.org
