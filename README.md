@@ -12,7 +12,7 @@ Our project "FindAbode" is a apartment rental web application that will allow us
 
 *  *Last Modification Date*: 14 JUN 2020
 
-Github repository: [https://github.com/diwansimran/assignemnt2-web](https://github.com/diwansimran/assignemnt2-web)
+Github repository: [https://github.com/diwansimran/A2_Simranbanu_Diwan.git](https://github.com/diwansimran/A2_Simranbanu_Diwan.git)
 
 Heroku deployment link: [https://assignment2-findabode.herokuapp.com/](https://assignment2-findabode.herokuapp.com/)  
 
