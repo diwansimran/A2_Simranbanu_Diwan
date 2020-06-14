@@ -428,4 +428,4 @@ font-size:  auto;
 
 [6] “Female, User, Avatar, Woman, Profile, Member - User Profile Avatar Icon User, HD Png Download  - kindpng,” KindPNG.com, 2019. [Online]. Available: https://www.kindpng.com/imgv/iwoJww_female-user-avatar-woman-profile-member-user-profile/. [Accessed: 14-Jun-2020].
 
-[7] [90]“Getting Started – React,” Reactjs.org, 2020. [Online]. Available: https://reactjs.org/docs/getting-started.html. [Accessed: 14-Jun-2020].
+[7] “Getting Started – React,” Reactjs.org, 2020. [Online]. Available: https://reactjs.org/docs/getting-started.html. [Accessed: 14-Jun-2020].
