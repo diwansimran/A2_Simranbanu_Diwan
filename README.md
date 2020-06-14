@@ -417,9 +417,15 @@ font-size:  auto;
 ## References
 
 [1] TheCodePro, “Learn React.js by Example - React Sign Up Form Example,” YouTube. 2020.
+
 [2] shaan, “HTML CSS Footer With Responsive Design | Fixed Bottom Footer,” Web Dev Trick, 17-May-2019. [Online]. Available: https://webdevtrick.com/html-css-footer/. [Accessed: 14-Jun-2020].
+
 [3] “Landmark Homes,” Ownalandmark.com, 2019. [Online]. Available: https://www.ownalandmark.com/our-homes/photo-galleries/gallery-bedrooms/. [Accessed: 14-Jun-2020].
+
 [4] ResidenceStyle, “21 Beautiful Wooden Bed Interior Design Ideas,” Residence Style, 21-Aug-2015. [Online]. Available: https://www.residencestyle.com/21-beautiful-wooden-bed-interior-design-ideas/. [Accessed: 14-Jun-2020].
+
 [5] “Learn more about the Modern Studies Association,” Modern Studies Association, 29-Mar-2017. [Online]. Available: http://www.msa-scotland.net/?p=55. [Accessed: 14-Jun-2020].
+
 [6] “Female, User, Avatar, Woman, Profile, Member - User Profile Avatar Icon User, HD Png Download  - kindpng,” KindPNG.com, 2019. [Online]. Available: https://www.kindpng.com/imgv/iwoJww_female-user-avatar-woman-profile-member-user-profile/. [Accessed: 14-Jun-2020].
+
 [7] [90]“Getting Started – React,” Reactjs.org, 2020. [Online]. Available: https://reactjs.org/docs/getting-started.html. [Accessed: 14-Jun-2020].
