@@ -4,6 +4,7 @@ import blogimg from '../../images/landingpage_sub.jpg';
 class Blogs extends Component {
   render() {
     return (
+      
       <>
       <h2 class="text-center">Blogs</h2>
       <div class="card bg-light border-dark mx-auto" style={{width:"80%"}}>
